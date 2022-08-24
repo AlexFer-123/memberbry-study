@@ -1,8 +1,14 @@
 <template>
   <div id="app">
-    <headerPages />
-    <h1>Olá mundo</h1>
-    <footerPages />
+    <div class="container">
+      <div class="row">
+        <div class="col-12 home">
+          <headerPages />
+          <h1 class="text-center display-1 text-light">Welcome to ALMember</h1>
+          <footerPages />
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -22,7 +28,7 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-}
+
+
+
 </style>
