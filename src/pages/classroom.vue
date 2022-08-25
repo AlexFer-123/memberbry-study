@@ -1,13 +1,21 @@
 <template>
     <div id="login">
         <h1>Classroom</h1>
+        <Iframe></Iframe>
+
     </div>
 </template>
 
 <script>
-    export default {
-        name: 'classroomALM'
-    }
+import Iframe from '@/components/iframe'
+
+export default {
+    name: 'classroomALM',
+    components: {
+            Iframe,
+
+    } 
+}
 </script>
 
  <style scoped>

@@ -4,11 +4,11 @@
       <div class="row">
         <div class="col-12">
           <div class="d-flex justify-content-between justify-content-center align-items-center">
-            <a href="#" class="text-light py-2 logo">ALMember</a>
+            <router-link to="/" class="text-light py-2 logo">ALMember</router-link>
             <nav class="d-flex py-2">
               <ul class="d-flex nav-items">
-                <li class="nav-item"><a href="#" class="text-light px-2"><i class="fa-solid fa-user "></i>Login</a></li>
-                <li class="nav-item"><a href="#" class="text-light px-2">Cadastro</a></li>
+                <li class="nav-item"><router-link to="/login" class="text-light px-2"><i class="fa-solid fa-user "></i>Login</router-link></li>
+                <li class="nav-item"><router-link to="/register" class="text-light px-2">Register</router-link></li>
               </ul>
             </nav>
           </div>

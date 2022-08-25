@@ -27,7 +27,8 @@ export default {
         videos.listar()
             .then(response => {
                 this.videoDash = response.data.videos;
-            })
+                console.log(this.videoDash)
+        });
     }
 
 }
