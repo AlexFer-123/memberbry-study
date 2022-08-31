@@ -1,6 +1,10 @@
+/* Template predefinition */
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Poppins:ital,wght@0,100;0,300;0,500;0,700;1,300&display=swap');
 :root {
-    /* Template predefinition */
-    background-color: #262626;
+    --background-color: #0D1117;
+    --border-color: #172A41; 
+
+    --text-primary-color: #fff;
 }
 
 * {
@@ -12,11 +16,14 @@ body {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     background-color: var(--background-color);
-
+    font-family: 'Poppins', sans-serif;
 }
-
-a,h1,h2,h3,h4,h5,h6,span {
-    color: white;
+::selection {
+    background-color: #262626;
+}
+a,h1,h2,h3,h4,h5,h6,span, p {
+    color: var(--text-primary-color);
+    font-weight: 300;
 }
 
 a {
@@ -30,7 +37,40 @@ li {
 svg {
     width: 2.5rem;
 }
-
+header {
+    height: 7vh;
+    border-bottom: 1px solid var(--border-color);
+}
+footer {
+    height: 7vh;
+    border-top: 1px solid var(--border-color);
+}
 .home {
-    height: 80vh;
+    min-height: 86vh;
+}
+header .nav-items {
+    margin: auto 0;
+    cursor: pointer;
+}
+header .nav-items i {
+    margin-right: 1rem;
+}
+header .nav-items .nav-item {
+    padding: 0.7035rem 1rem;
+    transition: all .3s ease-in-out;
+    border-radius: .5rem;
+}
+header .nav-items .nav-item:hover {
+    background-color: var(--border-color);
+    border-radius: .5rem;
+    transform: scaleY(1rem);
+}
+
+header .logo {
+    font-weight: 700;
+    font-family: 'Aboreto', cursive;
+}
+
+.text-home {
+    font-family: 'Aboreto', cursive;
 }
