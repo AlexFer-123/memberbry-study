@@ -1,15 +1,15 @@
 <template>
+
   <div id="app">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 home">
-          <headerPages />
-          <h1 class="text-center display-1 text-light">Welcome to ALMember</h1>
-          <footerPages />
-        </div>
-      </div>
-    </div>
+    
+    <headerPages />
+    
+    <router-view/>
+    
+    <footerPages />
+
   </div>
+
 </template>
 
 <script>
