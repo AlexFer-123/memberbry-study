@@ -46,7 +46,7 @@ footer {
     border-top: 1px solid var(--border-color);
 }
 .home {
-    height: 86vh;
+    min-height: 86vh;
 }
 header .nav-items {
     margin: auto 0;
