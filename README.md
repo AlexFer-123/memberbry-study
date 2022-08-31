@@ -3,6 +3,7 @@
 ## Project setup
 ```
 npm install
+asdas
 ```
 
 ### Compiles and hot-reloads for development
